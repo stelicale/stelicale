@@ -23,7 +23,7 @@
 
 ## Github Status
 
-![Profile views](https://komarev.com/ghpvc/?username=stelicale&style=for-the-badge&color=39d353&label=Profile+views)
+![Profile views](https://komarev.com/ghpvc/?username=stelicale&style=for-the-badge&color=39d353&label=Profile+views&background=0d1117)
 
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=stelicale&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=39d353&text_color=39d353&icon_color=39d353)
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=stelicale&show_icons=true&theme=transparent&count_private=true&hide_border=true&title_color=39d353&text_color=39d353&icon_color=39d353)
