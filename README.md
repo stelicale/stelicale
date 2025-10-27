@@ -23,8 +23,9 @@
 
 ## Github Status
 
-![Profile views](https://komarev.com/ghpvc/?username=stelicale&style=for-the-badge&color=2ea44f&label=Profile+views)
+![Profile views](https://komarev.com/ghpvc/?username=stelicale&style=for-the-badge&color=39d353&label=Profile+views)
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=stelicale&layout=compact&langs_count=8&theme=transparent&hide_border=true)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=stelicale&show_icons=true&theme=transparent&count_private=true&hide_border=true)
-![Streak stats](https://git-hub-streak-stats.vercel.app/?user=stelicale&theme=dark&hide_border=true&currStreakNum=39d353&sideNums=39d353&currStreakLabel=ffffff&sideLabels=ffffff&dates=8b949e)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=stelicale&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=39d353&text_color=39d353&icon_color=39d353)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=stelicale&show_icons=true&theme=transparent&count_private=true&hide_border=true&title_color=39d353&text_color=39d353&icon_color=39d353)
+
+![Streak stats](https://git-hub-streak-stats.vercel.app/?user=stelicale&theme=dark&hide_border=true&currStreakNum=39d353&sideNums=39d353&currStreakLabel=39d353&sideLabels=39d353&dates=39d353&background=0d1117)
