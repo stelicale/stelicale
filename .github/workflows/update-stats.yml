@@ -19,44 +19,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      # GitHub Stats
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=stelicale&show_icons=true&theme=transparent&hide_border=true&title_color=39d353&text_color=39d353&icon_color=39d353
+          options: username=stelicale&show_icons=true&count_private=true&theme=transparent&hide_border=true&title_color=39d353&text_color=39d353&icon_color=39d353
           path: profile/github-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          fail_on_error: true
 
-      # Top Languages
       - name: Generate Top Languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=stelicale&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=39d353&text_color=39d353&icon_color=39d353
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          fail_on_error: true
 
-      # Streak Stats
-      - name: Generate Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          options: |
-            {
-              "username": "stelicale",
-              "theme": "dark",
-              "hide_border": true,
-              "currStreakNum": "39d353",
-              "sideNums": "39d353",
-              "currStreakLabel": "39d353",
-              "sideLabels": "39d353",
-              "dates": "39d353",
-              "background": "0d1117"
-            }
-          path: profile/streak-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # Commit generated SVGs
       - name: Commit updated cards
         run: |
           git config user.name "github-actions[bot]"
